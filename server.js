@@ -4,7 +4,7 @@ import fetch from "node-fetch"; // Node 18+ يحتوي fetch مسبقاً
 const app = express();
 app.use(express.json());
 
-const GAS_URL = "https://script.google.com/macros/s/YOUR_GAS_ID/exec";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbwBVQChQ3RSX6kASM_myHnnjlZ5f3OwQTCW2IDW3lT8oS-HI8eh7CiqMhKavxtUZpo7/exec";
 
 // Endpoint Proxy
 app.post("/proxy", async (req, res) => {
